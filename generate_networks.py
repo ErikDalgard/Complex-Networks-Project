@@ -2,7 +2,7 @@ import networkx as nx
 import random
 
 def Gilbert(nodes, threshold):
-    """Creates a directed garph based on Gilbert.
+    """Creates a garph based on Gilbert.
     Each possible directed edge i to j is included independently with probability p"""
     Gilbert = nx.Graph()
     #Adding the nodes
