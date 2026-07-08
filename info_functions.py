@@ -169,7 +169,7 @@ def assortativity_info(graphs, save_img=False):
 
     n_graphs = len(graphs)
 
-    # Choose subplot layout (3 columns like your example)
+    #Subplots
     ncols = 3
     nrows = math.ceil(n_graphs / ncols)
 
